@@ -1,0 +1,119 @@
+@mixin img{
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+$main-width: 100%;
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+  
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header{
+    width: $main-width;
+    height: 80px;
+    background-color:white;
+    img{
+        display: block;
+        margin-top: 20px;
+        @include img;
+    }
+}
+
+.main-visual{
+    width: $main-width;
+    background-color: white;
+    margin-bottom: 30px;
+    img{
+        @include img;
+    }
+}
+
+.nav{
+    background-color:white;
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    img{
+        @include img;
+    }
+}
+.news{
+    width: $main-width;
+    height: auto;
+    img{
+        @include img;
+    }
+}
+.topic{
+    width: $main-width;
+    height: auto;
+    img{
+        @include img;
+    }
+}
+.sns{
+    width: $main-width;
+    height: auto;
+    img{
+        @include img;
+    }
+}
+.company{
+    width: $main-width;
+    background-color: rgb(242, 237, 229);
+    padding: 40px 0;
+    img{
+        @include img;
+    }
+}
+.sponsor{
+    width: $main-width;
+    img{
+        @include img;
+    }
+}
+footer{
+    padding-top: 25px;
+    width: $main-width;
+    img{
+       @include img;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+
+    header{
+        height: 25px;
+        img{
+            margin-top: 7px;
+        }
+    }
+
+    .main-visual{
+        margin-bottom: 5px;
+    }
+
+    .nav{
+        height: 22px;
+    }
+    .company{
+        padding: 25px 0;
+    }
+
+    footer{
+        padding-top: 10px;
+    }
+    
+}

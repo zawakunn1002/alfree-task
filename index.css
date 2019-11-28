@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+}
+
+header img {
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.main-visual {
+  width: 100%;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.main-visual img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.nav {
+  background-color: white;
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.nav img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.news {
+  width: 100%;
+  height: auto;
+}
+
+.news img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.topic {
+  width: 100%;
+  height: auto;
+}
+
+.topic img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.sns {
+  width: 100%;
+  height: auto;
+}
+
+.sns img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.company {
+  width: 100%;
+  background-color: #f2ede5;
+  padding: 40px 0;
+}
+
+.company img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.sponsor {
+  width: 100%;
+}
+
+.sponsor img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+footer {
+  padding-top: 25px;
+  width: 100%;
+}
+
+footer img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    height: 25px;
+  }
+  header img {
+    margin-top: 7px;
+  }
+  .main-visual {
+    margin-bottom: 5px;
+  }
+  .nav {
+    height: 22px;
+  }
+  .company {
+    padding: 25px 0;
+  }
+  footer {
+    padding-top: 10px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
